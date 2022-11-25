@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   /* outline:2px solid #000; */
+  
+}
+
+
+
+/* 
+
+ .navbar .nav2 ul li a:is(:link,:active,:visited):hover {
+
+  transform: scale(1.1);
+  color: #3a2413;
+  
+  }
+ .navbar .nav2 ul li a:is(:link,:active,:visited) {
+
+  font-family: 'Roboto', sans-serif;
+  
+  }
+ .navbar .nav2 ul li a:is(:link,:active,:visited).active {
+  outline: 2px solid #000;
+
+  font-weight: 600;
+  border-radius: 5px;
+  
+  } */
+  .navbar {
+    border-bottom: 1px solid #BBBBBB;
+  }
+  .navbar .nav2 .nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #031D44;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+  }
+  .navbar .nav2 .nav-link:hover {
+    opacity: 1;
+  }
+  .navbar .nav2 .nav-link::before {
+    transition: 300ms;
+    height: 3px;
+    content: "";
+    position: absolute;
+    background-color: #031D44;
+  }
+
+  
+  .navbar .nav2 .nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.navbar .nav2 .nav-link-ltr:hover::before {
+  width: 100%;
+}
+  @media screen  and (max-width:992px){
+    
+    .navbar .nav2 .nav-link::before {
+      display: none;
+         }
+ 
+ 
+ .navbar .nav2 ul li {
+
+    border-bottom: 1px solid #555;
+ }
+}
+ .form{
+    margin: 20px auto;
+    max-width: 600px;
+   
+   }
+     .form form .btn-outline{
+   outline:  2px solid #3a2413 !important; 
+   
+   }
+     .form form .btn-outline:focus{
+   background-color: #3a2413;
+   color: #fff;
+   
+   
+   }
+     .form form .btn-outline:hover{
+   background-color: #3a2413;
+   color: #fff;
+   transition:background-color .6s ;
+   
+   }
+  #heart-container {
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+  }
+  
+  #twitter-heart {  
+    position: absolute;  background:url('https://abs.twimg.com/a/1454637594/img/t1/web_heart_animation.png');
+    background-position: 0px;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    top: -40px;
+    left: -40px;
+    pointer-events: none;
+  }
+  
+
+#toggle {
+  opacity: 0;
+  transform: scale(3);
+  position: absolute;
+}
+  #toggle:checked + #twitter-heart {
+
+    animation: heart-animate 0.8s steps(28) forwards;
+  }
+
+
+
+@keyframes heart-animate {
+   100% { 
+     background-position: -2800px;
+  }
+}
+
+
+
+
+
+
+
+.boxes{
+ margin-left: 50px;
+ width: auto;
+ padding: 0 15px;
+ height: 50px;
+ outline: 3px solid skyblue;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+.boxes .round{
+  height: 35px;
+  width: 35px;
+  background-color: 	#FFD700;
+  border-radius: 50%;
+
+}
+.boxes p{
+ color: skyblue;
+ padding-top: 10px;
+}
