@@ -142,12 +142,15 @@ outline: 2px solid #000;</a>
     }
     .about{
       word-wrap: break-word;
-      max-width: 400px;
-      display: flex;
+     
+
       font-size: 22px;
     
+      display: flex;
+      font-size: 16px;
+    align-items: center;
       justify-content: center;
- 
+    
    
     }
 
@@ -315,6 +318,15 @@ margin-bottom: 0px;
   background-size: cover;
   height: 400px;
   
+}
+.about{
+
+  display: flex;
+  font-size: 16px;
+align-items: center;
+  justify-content: center;
+
+
 }
 
 
@@ -889,6 +901,14 @@ height: 400px;
  
   
 }
+/* .about{
+
+  font-size: 10px;
+
+  justify-content: center;
+
+
+} */
 }
 @media screen and (max-width:400px){
   
