@@ -166,7 +166,7 @@ while($row = $result->fetch_assoc()) {
             </div>
         <div class="col-md-8  about ">
          
-          <p >We are one of the oldest business families in India with a family legacy of 112 years in business. Started for the noble cause of nation-building and self-sustenance in a pre-independent India, the forefathers believed ethical, honest and transparent business practices should form the foundation of the group.
+          <p class="text-center">We are one of the oldest business families in India with a family legacy of 112 years in business. Started for the noble cause of nation-building and self-sustenance in a pre-independent India, the forefathers believed ethical, honest and transparent business practices should form the foundation of the group.
         Today, when I look around me, business is all about toplines, bottomlines and market capitalisation. But <i>Hayath</i> entered into business in a pre-independent India to build a better India, as our forefathers believed ethical, fair business will make India self-sufficient and strong.</p>
        
         </div>
@@ -327,10 +327,10 @@ while($row = $result->fetch_assoc()) {
          
          </div>
       
-       <div class="text">
+    
        
-         <p  style="font-size:1rem ">Carrying herself with a mesmerizing grace that you can’t take your eyes off, she makes for the perfect statement bride. Steering away from flashy details, she is alluring in an earthy pastel outfit paired with diamond jewellery. The brilliant diamonds accentuate the soft glow on her face. The highlight of her look is a necklace, earring and bracelet set subtly accented with deep coloured stones. If diamonds are your best friend, look no further for the perfect set..</p>
-       </div>
+         <p  style="font-size:1rem ; " class="text-center">Carrying herself with a mesmerizing grace that you can’t take your eyes off, she makes for the perfect statement bride. Steering away from flashy details, she is alluring in an earthy pastel outfit paired with diamond jewellery. The brilliant diamonds accentuate the soft glow on her face. The highlight of her look is a necklace, earring and bracelet set subtly accented with deep coloured stones. If diamonds are your best friend, look no further for the perfect set..</p>
+     
        
        <div class="parallax" id="parallax-2" data-image-src="images/10.jpg" data-height="760px">
         
